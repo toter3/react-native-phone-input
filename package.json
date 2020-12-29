@@ -1,6 +1,6 @@
 {
   "name": "react-native-phone-input",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "Phone input box for React Native",
   "main": "lib/index.js",
   "scripts": {
@@ -24,12 +24,13 @@
     "android"
   ],
   "dependencies": {
+    "@react-native-community/picker": "^1.8.1",
     "google-libphonenumber": "^3.2.2",
     "lodash": "^4.17.4",
     "prop-types": "^15.5.10"
   },
   "peerDependencies": {
-    "react-native": ">= 0.25"
+    "react-native": ">= 0.62"
   },
   "author": "Watcharachai Kanjaikaew (https://github.com/thegamenicorus)",
   "license": "MIT",
